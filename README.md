@@ -1,3 +1,17 @@
+# MySQL replication
+
+MySQL replication is a process that allows you to easily maintain multiple copies of a MySQL data by having them copied automatically from a master to a slave database(db). Here I am using one master db replicate to a single slave db.
+
+## Advantages:
+
+1. Facilitate backup from slave database 
+2. A way to analyze or generate reports without using the main database
+3. Scale out the database
+
+## Pre-requisites: 
+
+- Two Linux Servers with sudo privileges (one of the master server and and one of the slave)
+
 ### private IP of master and slave server
 ```
 master ip - 172.16.0.11
