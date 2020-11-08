@@ -164,4 +164,5 @@ start slave;
 
 show slave status\G;
 ```
+![](https://github.com/GimhanDissanayake/mysql-master_slave_replication/blob/main/master%20slave%20replication.PNG)
 ### Update the master server and check the replication
