@@ -1,4 +1,5 @@
-# MySQL replication
+# MySQL Master Slave Replication 
+![](https://github.com/GimhanDissanayake/MySQL-Master-Slave-Replication/blob/main/mysql%20drw1.PNG)
 
 MySQL replication is a process that allows you to easily maintain multiple copies of a MySQL data by having them copied automatically from a master to a slave database(db). Here I am using one master db replicate to a single slave db.
 
